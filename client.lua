@@ -9,7 +9,7 @@ for _, ped in pairs(Peds) do
 end
 
 local ChangePed = function(ped)
-
+	
 	local model = GetHashKey(ped)
 	if IsModelInCdimage(model) and IsModelValid(model) then
 
